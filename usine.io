@@ -8,7 +8,8 @@ Usine := Object clone do (
 				context := Object clone
 				context setSlot(variantName, x)
 				
-				context doMessage(bodyBlock)
+				bodyBlock doInContext(context)
+				
 			)
 		)
 		

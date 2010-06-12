@@ -4,7 +4,7 @@ As I'm learning IO language, I wanted to experiment the possibilities of the lan
 
 === Experiment explanation
 
-FactoryGirl declare patterns to craft ActiveRecord ( persisted in DB Ruby object ) used to simulate real-data while writing tests. Usine just craft vanilla objects in a similar fashion. 
+FactoryGirl declare patterns to craft ActiveRecord ( persisted in DB Ruby object ) instances used to simulate real-data while writing tests. Usine just craft vanilla objects in a similar fashion. 
 
 === Notes 
 
